@@ -1,9 +1,11 @@
 import time
 time1=time.time()
 time2=time.time()
-
+a = 1
 while True:
-    time.sleep(.25)
     time2=time.time()
-    print (time2 - time1)
-    time1=time2
+    print str(round(time2 - time1, 2)) + " seconds"
+    time.sleep(.1)
+
+
+

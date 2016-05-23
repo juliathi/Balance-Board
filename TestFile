@@ -81,4 +81,4 @@ if newResponse == "yes" or newResponse == "y" or newResponse == "ye":
             print (ID_number + "; " + str(Min) + " min " + str(Sec) + " sec")
             break
 
-seconds = str(Min) * 60 + str(Sec)
+
